@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(40, 40, 40);
+}
+#travelgoals a {
+  color: rgb(179, 255, 255);
+}
+#navigation li > a {
+  color: rgb(179, 255, 255);
+}
+
+#navigation li > a:hover {
+  color: rgb(15, 15, 30);
+  background-color: rgb(179, 255, 255);
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+
+.cities_module {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: 1fr; */
+  gap: 15px;
+  padding-inline: 20%;
+}
+
+.city_module_container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.cities_module div:nth-child(3) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: red;
+}
+
+.city_module_container div {
+  width: 50%;
+}

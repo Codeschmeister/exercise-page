@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif, serif;
+  font-weight: 400;
+  color: rgb(15, 15, 30);
+}
+
+main {
+  background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));
+}
+
+header {
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(15, 15, 30);
+}
+
+p {
+  margin: 0;
+}
+
+header h1,
+header p,
+#travelgoals {
+  text-transform: uppercase;
+}
+
+header ul {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+#navigation {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 75px;
+  /* background-color: blue; */
+}
+
+#navigation li > a {
+  transition: 0.25s ease-in;
+}
+
+#navigation li > a:hover {
+  transition: 0.25s ease-in;
+}
+
+#travelgoals a {
+  font-family: "Oleo Script";
+  font-size: 50px;
+  font-weight: 900;
+  text-shadow: 2px 1px rgba(0, 0, 0, 0.6);
+}
+
+footer {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: center;
+  gap: 50px;
+  /* background-color: rgb(15, 15, 30); */
+  background: linear-gradient(180deg, rgb(15, 15, 15), rgb(25, 25, 25));
+  padding: 25px 0 50px 0;
+}
+
+footer img {
+  width: 50px;
+}
