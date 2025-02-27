@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+
+header {
+  background-color: rgb(28, 28, 28);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+main {
+  background-color: rgb(42, 42, 42);
+}
+
+footer {
+  background-color: rgb(28, 28, 28);
+}
+
+/* nav {
+   background-color: orange;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+ul {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo a {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
