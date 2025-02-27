@@ -1,26 +1,28 @@
 body {
   margin: 0;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif, Helvetica;
   font-weight: 400;
   font-size: 16px;
-  color: white;
+  color: rgb(238, 164, 80);
 }
 
 header {
-  background-color: rgb(28, 28, 28);
+  position: sticky;
+  top: 0;
+  background: linear-gradient(45deg, rgb(28, 28, 28), rgb(42, 42, 42));
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10%;
+  padding: 10px 10%;
 }
 
 main {
-  background-color: rgb(42, 42, 42);
+  background: linear-gradient(270deg, rgb(42, 42, 42), rgb(64, 64, 64));
 }
 
 footer {
-  background-color: rgb(28, 28, 28);
+  background: linear-gradient(45deg, rgb(28, 28, 28), rgb(42, 42, 42));
 }
 
 /* nav {
@@ -45,7 +47,13 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(238, 164, 80);
+  transition: all 0.2 ease-in-out;
+}
+
+nav a:hover {
+  color: rgb(228, 163, 44);
+  transition: 0.2s ease-in-out;
 }
 
 .logo a {
@@ -60,6 +68,122 @@ nav ul {
 }
 
 h1 {
+  text-align: center;
+  padding: 25px 0;
   font-size: 32px;
   font-weight: 600;
+}
+
+.hamburger {
+  display: none;
+}
+
+.menu {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.menu__food-item {
+  overflow: hidden;
+  background-color: rgb(228, 206, 182);
+  border-radius: 6px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+  flex: 1;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.menu__food-item img {
+  width: 100%;
+  aspect-ratio: calc(2 / 1.25);
+  object-fit: cover;
+}
+
+.menu__food-item h2 {
+  color: rgb(28, 28, 28);
+  padding: 15px 0;
+}
+
+.menu__food-item a {
+  color: white;
+  padding: 10px 28px;
+  border-radius: 6px;
+  background-color: rgb(228, 157, 44);
+  transition: all 0.2 ease-in-out;
+}
+
+.menu__food-item a:hover {
+  background-color: rgb(221, 134, 34);
+  transition: all 0.2 ease-in-out;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  padding: 25px 0;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer__socials img {
+  width: 60px;
+  aspect-ratio: 1;
+}
+
+.footer__list-item {
+  margin-bottom: 15px;
+}
+.footer__list-item a {
+  color: white;
+}
+
+@media (max-width: 759px) {
+  .logo {
+    font-size: 32px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .hamburger {
+    display: inline-block;
+  }
+
+  h1 {
+    font-size: 28px;
+    padding: 10px 10%;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 25px;
+  }
+
+  footer {
+    padding-inline: 10px;
+  }
+
+  .footer__socials img {
+    width: 40px;
+  }
 }
