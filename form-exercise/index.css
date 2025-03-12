@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  margin-block: 2rem;
+}
+form {
+  margin: 0 auto;
+  width: 800px;
+  padding: 2rem;
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4px;
+  padding: 0;
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: rgba(51, 49, 93, 0.8);
+}
+
+textarea,
+input,
+select,
+button {
+  border: 1px solid rgb(51, 59, 93);
+  background-color: white;
+  border-radius: 4px;
+}
+
+input,
+select {
+  height: 2rem;
+}
+
+select {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+}
+
+.input-radio div,
+.terms {
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.btns {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+button {
+  padding: 10px 2rem;
+  background-color: white;
+  color: rgb(51, 59, 93);
+  box-shadow: 1px 2px 5px rgba(51, 49, 93, 0.8);
+}
+
+button:nth-of-type(1):hover {
+  background-color: rgba(51, 49, 93, 0.8);
+}
+
+.submit {
+  background: rgb(51, 59, 93);
+  color: white;
+}

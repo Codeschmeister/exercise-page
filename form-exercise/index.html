@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header><h1>Contact Us</h1></header>
+    <main>
+      <form action="/" method="get">
+        <div class="required-fields">
+          <h2>How can we help you?</h2>
+          <ul>
+            <li>
+              <label for="Name">Your name</label><input type="name" required />
+            </li>
+            <li>
+              <label for="Email">Your E-Mail-Address</label
+              ><input type="email" name="Email" id="" required />
+            </li>
+            <li>
+              <label for="phonenumber">Your phonenumber</label
+              ><input type="tel" name="phonenumber" id="" required />
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <label for="message">Your message</label
+              ><textarea name="message" id="" rows="10"></textarea>
+            </li>
+            <li>
+              <label for="select">How did you find us?</label>
+              <select name="select" id="">
+                <option value="websearch">Web Search</option>
+                <option value="ad">Ad</option>
+                <option value="google">Google</option>
+                <option value="recommendation">Recommendation</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>How should we reply?</h2>
+          <ul>
+            <li class="input-radio">
+              <div>
+                <label for="">Phone</label
+                ><input type="radio" name="radio" id="" value="Test3" />
+              </div>
+              <div>
+                <label for="">E-Mail</label
+                ><input type="radio" name="radio" id="" value="Test2" />
+              </div>
+              <div>
+                <label for="">Don't reply</label
+                ><input type="radio" name="radio" id="" value="Test" />
+              </div>
+            </li>
+            <li class="terms">
+              <label for="terms">Accept terms</label
+              ><input type="checkbox" name="terms" id="" required />
+            </li>
+            <li></li>
+          </ul>
+        </div>
+        <div>
+          <ul class="btns">
+            <li><button type="reset">Reset</button></li>
+            <li><button class="submit" type="submit">Submit</button></li>
+          </ul>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
