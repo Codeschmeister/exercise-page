@@ -1,0 +1,53 @@
+@import url(./styles/fonts.css);
+@import url(./styles/variables.css);
+@import url(./styles/button.css);
+@import url(./styles/gamefield.css);
+@import url(./styles/player-overview.css);
+@import url(./styles/overlay.css);
+
+body {
+  font-family: "Roboto", sans-serif, Verdana;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+header {
+  text-align: center;
+  padding-block: 3rem;
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+header h1 {
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-size: 1.25rem;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.stop-scrolling {
+  overflow: hidden;
+}
+
+.active {
+  background-color: var(--primary);
+}

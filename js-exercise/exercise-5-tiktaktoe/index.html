@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="../exercise-5-tiktaktoe/main.css" />
+    <!-- <script src="/js-exercise/exercise-5-tiktaktoe/main.js" defer></script> -->
+    <script src="./js/edit.js" defer></script>
+    <script src="./js/game.js" defer></script>
+    <script src="./js/main2.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Play Tic, Tac, Toe</h1>
+      <p>Built with HTML, CSS, Javascript and - of course- lots of love!</p>
+    </header>
+    <main>
+      <section class="players">
+        <div class="players__container">
+          <div class="players__player" id="" data-playerid="1">
+            <p>Player 1</p>
+            <h3 class="players__playername1">PLAYER NAME</h3>
+            <h3>X</h3>
+            <a id="playerx" class="players__player-edit">Edit</a>
+          </div>
+          <div class="players__player" id="playero" data-playerid="2">
+            <p>Player 2</p>
+            <h3 class="players__playername2">PLAYER NAME</h3>
+            <h3>O</h3>
+            <a id="playero" class="players__player-edit">Edit</a>
+          </div>
+        </div>
+        <a id="start-button" class="btn">Start New Game</a>
+        <div id="backdrop" class=""></div>
+        <aside class="overlay" id="overlay-edit">
+          <form class="" action="#" method="post">
+            <h2>Choose your name</h2>
+            <div class="overlay__input-container">
+              <label>Player name</label>
+              <input id="name" name="name" type="text" />
+            </div>
+            <p class="name-validation">Please enter a valid name!</p>
+            <div class="overlay__buttons">
+              <button type="reset" class="btn btn-alt" id="cancleEdit">
+                Cancle
+              </button>
+              <button type="submit" class="btn" id="confirmEdit">
+                Confirm
+              </button>
+            </div>
+          </form>
+        </aside>
+      </section>
+      <section class="tictactoe">
+        <div class="tictactoe__result">
+          <h2>You won, <span>PLAYER NAME</span>!</h2>
+          <p>Click "Start New Game" above, to start a new game!</p>
+        </div>
+        <div class="tictactoe__turn">
+          <p>It's your turn, <strong>Player 1</strong>!</p>
+        </div>
+        <ol class="tictactoe__gamefield">
+          <li data-col="1" data-row="1"></li>
+          <li data-col="2" data-row="1"></li>
+          <li data-col="3" data-row="1"></li>
+
+          <li data-col="1" data-row="2"></li>
+          <li data-col="2" data-row="2"></li>
+          <li data-col="3" data-row="2"></li>
+
+          <li data-col="1" data-row="3"></li>
+          <li data-col="2" data-row="3"></li>
+          <li data-col="3" data-row="3"></li>
+        </ol>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

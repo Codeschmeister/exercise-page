@@ -1,0 +1,41 @@
+/* Roboto Style Font weight 100 */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 100;
+  font-style: normal;
+  src: url(../fonts/roboto-v47-latin-100.woff2) format("woff2");
+}
+/* Roboto Style Font weight 400 */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/roboto-v47-latin-regular.woff2) format("woff2");
+}
+/* Roboto Style Font weight 600 */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-style: normal;
+  src: url(../fonts/roboto-v47-latin-600.woff2) format("woff2");
+}
+/* Roboto Style Font weight 800 */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 800;
+  font-style: normal;
+  src: url(../fonts/roboto-v47-latin-800.woff2) format("woff2");
+}
+
+/* Roboto Style Font weight 900 */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-style: normal;
+  src: url(../fonts/roboto-v47-latin-900.woff2) format("woff2");
+}

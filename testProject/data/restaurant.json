@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Test1",
+    "address": "Test2",
+    "cuisine": "Test2",
+    "website": "http://google.de",
+    "description": "Munich",
+    "id": "18f0e2c9-9c58-40d8-8dd1-88aa9d6dac8e"
+  },
+  {
+    "name": "Test2",
+    "address": "Test2",
+    "cuisine": "German",
+    "website": "https://www.youtube.com/watch?v=3OvE6t2UIQ0",
+    "description": "Stuttgart",
+    "id": "0788e188-a2ee-4b4c-9544-989e2396e08a"
+  }
+]

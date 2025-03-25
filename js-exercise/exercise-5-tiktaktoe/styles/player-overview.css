@@ -1,0 +1,39 @@
+.players {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.players__container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 1rem;
+}
+
+.players__player {
+  text-align: center;
+  background-color: var(--primary-light);
+  padding: 2rem 6rem;
+  border-radius: 8px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+
+.players__player p {
+  font-weight: 800;
+}
+
+.players__playername {
+  color: var(--primary-dark);
+}
+
+.players__player-edit {
+  color: var(--primary-dark);
+}
+
+.players__startgame-button {
+  box-sizing: border-box;
+}

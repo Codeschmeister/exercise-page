@@ -69,6 +69,10 @@ function listUserData() {
 }
 
 function rollDice() {
+  const parent = document.getElementById("dice-rolls");
+  while (parent.firstChild) {
+    parent.removeChild(parent.firstChild);
+  }
   const numberToRoll = parseInt(
     document.getElementById("user-target-number").value
   );

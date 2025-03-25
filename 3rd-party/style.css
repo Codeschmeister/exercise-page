@@ -1,0 +1,11 @@
+#carouselExample {
+  margin: 5rem auto;
+  width: 50%;
+  height: 30rem;
+  max-width: 50vw;
+}
+
+#carouselExample img {
+  object-fit: cover;
+  height: 30rem;
+}
